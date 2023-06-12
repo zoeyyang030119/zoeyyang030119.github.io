@@ -643,7 +643,7 @@ More inf
                         <div class="summary block-with-text">
                             
                                 使用Hexo + GitHub编写个人博客是一种很好的方式，不仅可以锻炼自己的技术能力，还可以记录自己的生活点滴，分享自己的见解和经验。通过这个过程，我也学到了很多关于网站优化、SEO等知识，对自己的职业发展有很大帮助。
-title 1he
+
                             
                         </div>
                         <div class="publish-info">
@@ -652,13 +652,25 @@ title 1he
                             </span>
                             <span class="publish-author">
                                 
-                                <i class="fas fa-user fa-fw"></i>
-                                Zoey
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E5%AD%A6%E7%BC%96%E7%A8%8B/" class="post-category">
+                                    学编程
+                                </a>
+                                
                                 
                             </span>
                         </div>
                     </div>
 
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99/">
+                            <span class="chip bg-color">博客建站</span>
+                        </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -988,6 +1000,15 @@ $(function () {
 
     
     
+    
+        
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
+            }
+        </script>
     
 
     <!-- 雪花特效 -->
