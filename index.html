@@ -550,12 +550,12 @@
                         <div class="dream">
     
     <div class="title center-align">
-        <i class="far fa-lightbulb"></i>&nbsp;&nbsp;我的梦想
+        <i class="far fa-lightbulb"></i>&nbsp;&nbsp;城市随记
     </div>
     
     <div class="row">
         <div class="col l8 offset-l2 m10 offset-m1 s10 offset-s1 center-align text">
-            不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
+            周围是如此安静，你几乎可以听见一支汤匙在芬兰掉落的叮当声。天空染上了透明的粉红色，亮得河流那浅蓝色的水彩几乎无法反映它。那些桥则被吊起，仿佛三角洲中的诸岛屿松开它们的手，并开始慢慢漂流，拐入主流，朝着波罗的海游去。在这样的夜晚，很难睡得着觉，因为光太猛，也因为任何梦都比不上这种现实。人不会投下阴影，像水一样。
         </div>
     </div>
 </div>
@@ -954,6 +954,14 @@ $(function () {
     
 
     <!-- 鼠标星星特效 -->
+     
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/star.js"><\/script>');
+            }
+        </script>
     
 
      
@@ -997,6 +1005,8 @@ $(function () {
 
     
 
+    
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
     
 
     
