@@ -594,7 +594,7 @@ header .go-back i {
 }
 
 @-webkit-keyframes rainbow {
-    /**/
+
     0%,
     100% {
         background: rgba(156, 39, 176, 0.75);
@@ -789,7 +789,7 @@ header .go-back i {
     border: 0;
     border-radius: 10px;
     color: rgba(0, 0, 0, .87);
-    background: #fff 10%;
+    background: #fff 50%;
     background-size: cover;
     box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
 }
